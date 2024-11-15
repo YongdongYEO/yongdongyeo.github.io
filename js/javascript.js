@@ -87,7 +87,7 @@ function loadFooter() {
 function updateAge(){
 	if( $('.update-birth').length > 0 ){
 		var myAge;
-		var birth = new Date(Date.parse('1994/9/21')).getTime();
+		var birth = new Date(Date.parse('1996/1/22')).getTime();
 		setInterval(function(){
 			myAge = new Number(new Date(new Date().getTime() - birth) / (1000 * 60 * 60 * 24 * 365.25)).toFixed(10);
 			$('.update-birth p').text(myAge);
