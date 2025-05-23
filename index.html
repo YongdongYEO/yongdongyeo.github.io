@@ -255,17 +255,17 @@ SOFTWARE.
                     <h1 class='eng'>(Fully) Homomorphic Encryption</h1>
                     <!-- <h1 class='kor'>동형암호</h1> -->
                     <p class='eng'>
-                        Imagine you have a secret recipe, and you want someone to bake the cake for you, but you don't want to reveal the ingredients. How can you let them do the work while keeping your recipe safe?
+                        Imagine training a machine learning model on sensitive medical data—like patient records—without ever seeing the actual data. How can we ensure privacy while still allowing useful computation?
                     </p>    
                     <p class='eng'>
-                        This is where homomorphic encryption comes in. It’s like putting your secret recipe in a locked box, giving the box to someone, and letting them do all the mixing and baking without ever opening the box. They can work on the recipe, but they’ll never know what’s inside.
+                        This is the core idea behind Privacy-Preserving Machine Learning (PPML), and Fully Homomorphic Encryption (FHE) plays a central role. FHE allows computations to be performed directly on encrypted data, without needing to decrypt it first. The results, when decrypted, match what would have been obtained using the original plaintext.
                     </p>    
                     <p class='eng'>
-                        In the world of computers, homomorphic encryption allows people to process and analyze encrypted data without ever seeing the original data.
+                        Mathematically, homomorphic encryption schemes are designed so that the decryption function is a homomorphism with respect to certain operations—like addition and multiplication. This means operations on ciphertexts translate directly into corresponding operations on plaintexts.
                         <!-- For example, a hospital could analyze patient data while keeping personal information hidden, or a bank could calculate interest on encrypted financial records without accessing the actual amounts. -->
                     </p>    
                     <p class='eng'>
-                        This technology is important for protecting privacy in sensitive tasks like healthcare, finance, and even artificial intelligence. It ensures that data remains secure and private while still being useful.
+                        This capability enables secure data processing in areas like healthcare, finance, and artificial intelligence, where data confidentiality is critical. With Fully Homomorphic Encryption (FHE), we can achieve both functionality and privacy, without compromise.
                     </p>
                     <!-- <p class='kor'>
                         암호화는 데이터 프라이버시를 보장하는 수단입니다. 그러나 암호화된 데이터는 해독하지 않으면 활용하기 어렵습니다. 동형암호는 이 문제에 대한 훌륭한 해결책이 될 수 있습니다. 동형암호는 복호화 없이 암호화된 상태에서 계산을 허용하는 암호화 기법입니다. 저는 동형암호를 효율적으로 계산하는 알고리즘을 연구하고 있습니다. 또한 자연어 처리, 생물 정보 등 다양한 분야에서 동형암호의 활용도 연구하고 있습니다.
