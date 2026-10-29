@@ -86,6 +86,16 @@ SOFTWARE.
         font-family: 'noto-eng-i','noto-kor-i';
         font-size:10pt;
     }
+    .papers-note{
+        font-family: 'noto-eng-i','noto-kor-i';
+        font-size: 10pt;
+        color: #404040;
+        margin-bottom: 40px;
+    }
+    .papers sup{
+        font-size: 8pt;
+        line-height: 0;
+    }
 </style>
 </head>
 
@@ -107,14 +117,16 @@ SOFTWARE.
             </li> -->
         <!-- </ol> -->
 
+        <p class='papers-note eng'>Authors are listed in alphabetical order by last name, unless an asterisk (<sup>*</sup>) for the first author is indicated. A dagger (<sup>&dagger;</sup>) indicates the corresponding author, when applicable.</p>
+
         <ol reversed class='papers'>
             <h1>Conferences</h1>
             <li class='equal'>
                 <h1>
                     SophOMR: Improved Oblivious Message Retrieval from SIMD-Aware Homomorphic Compression
                 </h1>
-                <p class="eng">Keewoo Lee, <u>Yongdong Yeo</u> </p>
-                <p class='links'>To appear in USENIX Security 2026. [<a href='https://eprint.iacr.org/2024/1814'>eprint</a>]</p>
+                <p class="eng">Keewoo Lee<sup>*</sup>, <u>Yongdong Yeo</u><sup>*</sup> </p>
+                <p class='links'>USENIX Security 2026. [<a href='https://www.usenix.org/conference/usenixsecurity26/presentation/lee-keewoo'>paper</a>] [<a href='https://eprint.iacr.org/2024/1814'>eprint</a>]</p>
             </li>
         </ol>
         
@@ -132,7 +144,7 @@ SOFTWARE.
                 <h1>
                     OverModRaise: Reducing Modulus Consumption of CKKS Bootstrapping
                 </h1>
-                <p class="eng">(α-β order) Jung Hee Cheon, Jihwan Kim, <u>Yongdong Yeo</u>&dagger; </p>
+                <p class="eng">Jihwan Kim<sup>*</sup>, Jung Hee Cheon, <u>Yongdong Yeo</u><sup>&dagger;</sup> </p>
                 <p class='links'>IACR CiC 2025. [<a href='https://doi.org/10.62056/a3n5qjp10'>paper</a>] [<a href='https://eprint.iacr.org/2025/1298'>eprint</a>]</p>
             </li>
             <li class='equal'>
@@ -141,7 +153,7 @@ SOFTWARE.
                 </h1>
                 <p class='eng'> (α-β order) Jung Hee Cheon, Minsik Kang, Taeseong Kim, Junyoung Jung, <u>Yongdong Yeo</u></p>
                 <!-- <b><a href='https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206'>TIFS 2022</a></b> -->
-                <p class='links'>TDSC 2024. [<a href='https://doi.org/10.1109/TDSC.2024.3448406'>paper</a>] [<a href='https://eprint.iacr.org/2023/632'>eprint</a>]</p>
+                <p class='links'>IEEE TDSC 2025. [<a href='https://doi.org/10.1109/TDSC.2024.3448406'>paper</a>] [<a href='https://eprint.iacr.org/2023/632'>eprint</a>]</p>
             </li> 
         </ol>
 
@@ -153,7 +165,7 @@ SOFTWARE.
                     SIMD-Aware Homomorphic Compression and Application to Private Database Query
                 </h1>
                 <p class="eng">(α-β order) Jung Hee Cheon, Keewoo Lee, Jai Hyun Park, <u>Yongdong Yeo</u> </p>
-                <p class='links'>[<a href='https://arxiv.org/abs/2408.17063'>arXive</a>]</p>
+                <p class='links'>[<a href='https://arxiv.org/abs/2408.17063'>arXiv</a>]</p>
             </li>
         </ol>
     </div>
